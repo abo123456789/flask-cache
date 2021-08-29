@@ -1,3 +1,8 @@
-Flask-Cache
+pip intall Flask-Cache2
 
 Adds easy cache support to Flask.
+
+修复如下问题:
+导入包里有一个地方用到了flask.ext
+
+from flask.ext.cache import make_template_fragment_key
